@@ -1,0 +1,14 @@
+abrir uma janela para solicitar uma entrada "window.prompt"
+
+abrir uma janela de alerta "window.alert"
+
+abrir uma janela de confirme ou cancele 
+"window.confirm"
+
+
+se a entrada for um numero lembrar de sempre utilizar a função Number com N maiusculo. 
+Se o valor for inteiro Number.parseInt(N) ou apenas parseInt(N)
+se o valor for float, Number.parseFloar(N) ou apenas Float(N)
+
+para utilizar concatenação de forma mais simplificada, é possível utilizar Template Strings
+a escrita é (`informações da string ${variavel} e sempre que uma variavel aparecer dentro da string basta usar ${}, nesse caso não são usadas aspas e sim crase`)
