@@ -22,7 +22,10 @@ variavel.toLowerCase() - letras ficam minusculas
 
 variavel.toFixed() o valor no parentese determina a quantidade de casa decimal após o ponto
 
-variavel.toFixed().replace 
+variavel.toFixed().replace ('.' , ',') - esse comando troca o ponto de um tipo float para virgula
 
 document.write() mostrar informações na janela principal 
+
+variavel.toLocalString('pt-BR', {style: 'currency', currency: 'USD'}) mostra um valor como dinheiro exp:  US$ 10,00
+pode-se utilizar 'BRL' invés de 'USD' ou qualquer outra sigla de moeda
 
