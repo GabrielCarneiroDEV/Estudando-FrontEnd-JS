@@ -29,3 +29,46 @@ document.write() mostrar informações na janela principal
 variavel.toLocalString('pt-BR', {style: 'currency', currency: 'USD'}) mostra um valor como dinheiro exp:  US$ 10,00
 pode-se utilizar 'BRL' invés de 'USD' ou qualquer outra sigla de moeda
 
+
+
+ordem de precedencia dos operadores
+operadores aritmeticos:
+()
+**
+*   /   %
++   -
+
+operadores realacionais
+<  >  <= >=  ==  === != !==
+
+operadores lógicos
+!
+&&
+||
+
+
+operadores ternários
+? :
+
+
+
+*operadores ternários funcionam como uma especie de if
+teste ? true : false
+
+exp:  
+media >= 7.0 ? "Aprovado : "Reprovado"
+
+Seria o mesmo que :
+if(media >= 7.0) {
+    console.log ("Aprovado")
+}
+
+else{
+    console.log("Reprovado")
+}
+
+
+
+-----------------------------------
+
+DOM - Document Object Model
