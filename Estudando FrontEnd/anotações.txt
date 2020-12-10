@@ -24,3 +24,5 @@ variavel.toFixed() o valor no parentese determina a quantidade de casa decimal a
 
 variavel.toFixed().replace 
 
+document.write() mostrar informações na janela principal 
+
