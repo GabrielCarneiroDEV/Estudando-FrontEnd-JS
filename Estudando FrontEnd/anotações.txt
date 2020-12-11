@@ -72,3 +72,33 @@ else{
 -----------------------------------
 
 DOM - Document Object Model
+MODELO DE OBJETOS PARA DOCUMENTOS
+Dom não funciona em nodejs, apenas dentro do navegador.
+
+
+Arvore DOM
+
+tudo dentro do javascript está dentro de um objeto chamado window
+
+Dentro de window se encontra document, onde se encontra HTML.
+
+Existem inumeros elementos dentro de window. 
+
+dizemos que um elemento que está abaixo de outro é um Child.
+
+
+existem inumeras formas de selecionar elementos, entre elas: 
+
+Por Marca/tag  = getElementsByTagName()   <--- Consegue selecionar mais de um objeto com a mesma tag.
+
+Por ID = geElementById()   <--- pode identificar uma tag o div por id e utilizar esse metodo, geralmente usado em sites mais evoluidos
+
+por Nome  = getElementsByName ()   <--- Quando se utiliza o nome do objeto
+
+Por Classe = getElementsByClassName ()
+
+por Seletor = querySelector () ou querySelectorAll()  <--- forma mais recomendada, mas ainda pode estar desatualizada em alguns navegadores.
+
+
+
+
