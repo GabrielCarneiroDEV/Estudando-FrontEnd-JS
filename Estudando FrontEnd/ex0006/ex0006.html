@@ -13,13 +13,38 @@
             height:200px;
             line-height: 200px;
             text-align: center;
-
+            border-radius: 50px;
         }
     </style>
 </head>
 <body>
-    <div id = "area">
-        interaja.a.a.
+    <div id = 'area' onclick = "clickar()" onmouseenter= "entrar()" onmouseout ='sair()'>
+        Clique aqui
     </div>
+    <script>
+       
+        function clickar(){
+          var a = window.document.getElementById('area')
+            a.innerText ='clicou! :)'
+            a.style.background = 'red';
+
+
+        }
+        function entrar(){
+          var b = window.document.getElementById('area') 
+
+         //b.innerText = 'passou'
+        b.style.color = 'yellow'
+        c.style.fontSize = '10px'
+        
+       }
+
+       function sair(){
+           var c = window.document.getElementById('area');
+           c.style.color = 'white'
+           c.style.background = 'green'
+       }
+    </script>
+
 </body>
 </html>
