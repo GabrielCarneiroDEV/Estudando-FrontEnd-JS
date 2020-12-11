@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        text-align: center;
+        
+        
+    }
+    
+    body{
+        background:rgb(207, 195, 26, 0.918)
+    }
+
+    input#txtvel{
+        margin-top: 50px;
+
+    }
+    h1{
+        font: bold 20pt Arial;
+        margin-top: 80px;
+        color:rgba(207, 195, 26, 0.918);
+        background-color: rgb(87, 52, 212);
+        width: 200px;
+        height: 60px;
+        text-align: center;
+        margin-left: 560px;
+        border-radius: 200px;
+    }
+
+    input#verificar{
+        font: bold 50pt Arial;
+        font-size: 20px;
+        border-radius: 20px;
+        background-color:rgb(87, 52, 212);
+        color:rgba(207, 195, 26, 0.918);
+        margin-left: 20px;
+    }
+</style>
+<body>
+
+    <h1>Sistema de Multas</h1>
+    <input type="number" name ="txtvel" id= "txtvel">Km/h
+    <input type="button" id= "verificar"value="Verificar" onclick ="calcular()">
+    <div id= "res"></div>
+<script>
+
+function calcular(){
+
+    var txtv = window.document.getElementById('txtvel')
+    var res = window.document.getElementById('res')
+    var vel = Number(txtv.value)
+    res.innerHTML = `<p>Sua velocidade atual é de <strong>${vel} Km/h </strong></p>`
+    if (vel > 60){
+   res.innerHTML += `<p>Você está <strong>MULTADO</strong> por excesso de velocidade!</p>`
+
+}
+res.innerHTML += '<p> Dirija com cuidado!</p>'
+}
+</script>
+</body>
+</html>
