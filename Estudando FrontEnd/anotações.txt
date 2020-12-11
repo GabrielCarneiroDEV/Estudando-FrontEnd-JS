@@ -120,6 +120,8 @@ mouseout
  
  *ver depois javascript dom events list
 
+ o evento pode ser disparado tanto com html quanto no script
+
 
 
 
