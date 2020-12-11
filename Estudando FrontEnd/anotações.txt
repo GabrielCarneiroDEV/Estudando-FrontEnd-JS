@@ -100,5 +100,27 @@ Por Classe = getElementsByClassName ()
 por Seletor = querySelector () ou querySelectorAll()  <--- forma mais recomendada, mas ainda pode estar desatualizada em alguns navegadores.
 
 
+-------------------------------------
+
+
+EVENTOS DOM
+
+no ex0006 foi criado uma div, e vai ser configurado eventos para quando o mouse estiver dentro da area da div:
+mouseenter
+e quando o mouse se mover:
+mousemove
+quando for pra baixo:
+mousedown
+ou pra cima:
+mouseup
+quando ckiclar:
+click
+quando o mouse sair:
+mouseout
+ 
+ *ver depois javascript dom events list
+
+
+
 
 
