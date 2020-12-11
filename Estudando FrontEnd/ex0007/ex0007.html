@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somando Numeros</title>
+</head>
+<style>
+    *{
+        text-align: center;
+            }
+    body{
+        font: normal 18pt Arial;
+        background: rgba(69, 69, 173, 0.877)
+        }
+        div#res{
+            font: normal 18pt Arial;
+            margin-top: 50px;
+            background: yellow;
+            height: 300px;
+            width: 500px;
+            text-align: center;
+            border-radius: 30px;
+           flex-wrap: flex;
+           line-height: 300px;
+           margin-left: 420px;
+           line-break:normal;
+        }
+</style>
+<body>
+    <h1>Somando Valores</h1>
+    <input type="number" name = "txtn1" id = "txtn1"> +
+    <input type="number" name= "txtn2" id = txtn2>
+    <input type="button" value="Somar" onclick="somar()">
+<div id = "res">Resultado</div>
+    <script>
+
+        function somar(){
+            var tn1 = window.document.getElementById ("txtn1")
+            var tn2 = window.document.getElementById("txtn2")
+            var res = window.document.getElementById("res")
+            var n1 = Number(tn1.value)
+            var n2 = Number(tn2.value)
+           // var soma = Number(tn1.value) + Number(tn2.value)  //tbm pode ser usado parseInt
+           var soma = n1+n2
+            res.innerHTML = (`O valor de da soma de ${n1} + ${n2} é <strong>${soma}</strong>`)
+        }
+    </script>
+</body>
+</html>
