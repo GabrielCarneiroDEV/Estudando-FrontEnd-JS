@@ -123,6 +123,6 @@ mouseout
  o evento pode ser disparado tanto com html quanto no script
 
 
-
+caso haja algum erro no comportamento do seu programa, o JS não vai te informar, usando o navegador, clickando com o botão direito, abra inspect
 
 
