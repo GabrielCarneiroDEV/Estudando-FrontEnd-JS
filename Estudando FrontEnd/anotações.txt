@@ -126,3 +126,15 @@ mouseout
 caso haja algum erro no comportamento do seu programa, o JS não vai te informar, usando o navegador, clickando com o botão direito, abra inspect
 
 
+
+
+Mostrar hora e data em tempo real 
+var agora = new Date()
+var hora = agora.getHours()
+var minutos = agora.getMinutes()
+console.log(`${hora}:${minutos}`)
+
+var dia = agora.getDay()
+var mes = agora.getMonth()
+var ano = agora.getFullYear()
+console.log(`${dia}/${mes}/${ano}`)
