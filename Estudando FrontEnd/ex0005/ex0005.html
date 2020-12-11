@@ -2,10 +2,32 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
 </head>
+<style>
+    body{
+        background: rgba(40, 54, 180, 0.966);
+        color: white;
+        font: normal 18pt Arial;
+    }
+</style>
 <body>
-   <h1>iniciando estudos com DOM </h1> 
+
+    <h1>Aprendendo a usar a <strong>DOM</strong> em JavaScript</h1>
+<p>Testando</p>
+<p>DOM DOM DOM</p>
+<div id = "msg">Clique aqui</div>    
+<script>
+  
+  let p1 = window.document.getElementsByTagName('p')[1]
+    
+    window.document.write("Está Escrito assim: " + p1.innerText);
+    p1.style.color = 'black'
+    var divMsg = window.document.getElementById('msg')
+    divMsg.style.color = 'yellow'
+    divMsg.style.background = 'red'
+
+</script>
 </body>
 </html>
