@@ -26,3 +26,35 @@ footer{
     font-style: italic;
 font-size: 12px;
 }
+
+div#contador{
+    text-align: center;
+
+    padding: 50px;
+}
+
+input#txtfim{
+    margin-top: 20px;
+    margin-left: 16px;
+}
+
+input#txtpasso{
+    margin-top: 20px ;
+    margin-bottom: 40px
+    
+
+}
+
+input#botaocontar{
+
+    padding:20px;
+    margin-left: 50px;
+    background-color: teal;
+    color: white;
+    box-shadow: 2px 2px 6px rgb(71, 172, 255);
+    border-radius:25%;
+}
+
+div#res{
+    display:inline-block;   
+}
