@@ -1,0 +1,50 @@
+body{
+background: rgb(92, 92, 240);
+font: normal 15pt Arial;
+
+
+}
+
+header{
+    color:white;
+    text-align: center;
+}
+
+section{
+background: white;
+border-radius: 10px;
+padding: 15px;
+width: 500px;
+margin:auto;
+box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.719);
+
+}
+
+footer{
+    color:white;
+    text-align: center;
+    font-style: italic;
+font-size: 12px;
+}
+
+input#botaoadd{
+    margin-left: 375px;
+    margin-top: 12px;
+    background:rgb(92, 92, 240);
+    color: white;
+    width: 80px;
+    height: 40px;
+    border-radius: 5%;
+    box-shadow: 1px 2px 1px 1px rgba(53, 42, 42, 0.308);
+}
+
+
+input#botaoanalisar{
+    margin-top: 12px;
+    background:rgb(92, 92, 240);
+    color: white;
+    width: 80px;
+    height: 40px;
+    border-radius: 5%;
+    box-shadow: 1px 2px 1px 1px rgba(53, 42, 42, 0.308);
+}
