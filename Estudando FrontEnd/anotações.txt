@@ -138,3 +138,16 @@ var dia = agora.getDay()
 var mes = agora.getMonth()
 var ano = agora.getFullYear()
 console.log(`${dia}/${mes}/${ano}`)
+
+
+-----------------------------------------
+
+num.push() <- coloca um elemento na ultima posição de uma array
+num.sort <- coloca vetor em ordem crescente
+
+uma forma simplificada de varrer o conteúdo de uma array ao invés de utilizar o for(let i = 0; i < array.length; i++ ) :
+
+for(let i in array){
+
+}
+
