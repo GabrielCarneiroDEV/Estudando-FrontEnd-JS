@@ -151,3 +151,22 @@ for(let i in array){
 
 }
 
+
+
+
+
+-----------------------------------------
+como utilizar uma função passando um valor como parametro:
+function parOuImpar(n){
+    uf(n%2==0){
+        return 'par'
+    }else{
+        return 'impar'
+
+    }
+
+}
+
+let res = parOuImpar(11)
+
+a string com o resultado estará na variavel res.
