@@ -23,7 +23,7 @@ function adicionar(){
  let item = document.createElement('option')
 
     
-if (adds.value.length == 0 || adds.value > 100 ){
+if (adds.value.length == 0 || adds.value > 100){
 
     window.alert("ERRO - VALOR INCORRETO")
 } else{
@@ -32,7 +32,8 @@ if (adds.value.length == 0 || adds.value > 100 ){
     valores.push(adicionados)
     selAnalisador.appendChild(item)
      item.text = `${adicionados}`
-   
+     adds.value=''
+   num.focus()
    
 }
  
